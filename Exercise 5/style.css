@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(30, 28, 28);
+}
+.navContainer {
+    height: 60px;
+    padding: 10px;
+    background-color: black;
+    color: beige;
+    position: sticky;
+    top: 0;
+}
+.navContainer ul li{
+    display: inline;
+    list-style: none;
+    padding: 30px;
+}
+.navContainer ul{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.boxMainContainer {
+    height: 85vh;
+    padding: 20px;
+    display: flex;
+    overflow: hidden;
+}
+.box{
+    height: 600px;
+    width: 800px;
+}
+.box img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: left;
+}
+.logoContainer{
+    height: 100px;
+    width: 100px;
+    position: fixed;
+    top: 87vh;
+    left: 92vw;
+}
+.logoContainer img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.rectangleBox {
+    height: 200px;
+    text-align: center;
+    font-size: 40px;
+    border-radius: 20px;
+    border: 2px solid rgb(69, 67, 67);
+}
+.rectangleBox h1{
+    color: white;
+    margin-top: 40px;
+}
+.footerContainer{
+    margin-top: 20px;
+    height: 50px;
+    border: 2px solid rgb(69, 67, 67);
+}
+.footerContainer h4{
+    color: white;
+    text-align: center;
+}
