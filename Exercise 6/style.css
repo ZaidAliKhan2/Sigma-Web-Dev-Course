@@ -1,0 +1,26 @@
+.mainHeader{
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+}
+.navItems ul{
+    display: flex;
+    gap: 40px;
+}
+.navItems ul li{
+    list-style: none;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.navItems li i{
+    margin-left: 10px;
+    font-size: 15px;
+}
+.navItems li .fa-language, .fa-magnifying-glass{
+    font-size: 20px;
+}
+.navItems li a{
+    text-decoration: none;
+    color: #222;
+}
+
