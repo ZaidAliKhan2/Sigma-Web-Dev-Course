@@ -1,0 +1,157 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+.mainHeader {
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+}
+
+.navItems ul {
+    display: flex;
+    gap: 40px;
+}
+
+.navItems ul li {
+    list-style: none;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navItems li i {
+    margin-left: 10px;
+    font-size: 15px;
+}
+
+.navItems li .fa-language,
+.fa-magnifying-glass {
+    font-size: 20px;
+}
+
+.navItems li a {
+    text-decoration: none;
+    color: #222;
+}
+
+.downloadTextContainer {
+    text-align: center;
+}
+
+.downloadTextContainer h1 {
+    color: #222222;
+    font-size: 48px;
+    font-weight: 400;
+}
+
+.downloadTextContainer h3 {
+    color: #222222;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.downloadBtn {
+    padding: 10px;
+    width: 260px;
+    border-radius: 5px;
+    background-color: #00b6d1;
+    margin: auto;
+    margin-bottom: 30px;
+}
+.downloadBtn:hover {
+    background-color: #09a6bd;
+}
+.downloadBtn a {
+    font-size: 14px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+}
+
+.ultraEditDownloadVersionContainer {
+    height: 100px;
+    width: 55vw;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.ultraEditDownloadVersionContainer h3 {
+    color: #222222;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.ultraEditDownloadVersionContainer h3 span {
+    color: #222222;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.downloadLanguagesGrid {
+    width: 100vw;
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    grid-template-rows: repeat(4, 200px);
+    justify-content: center;
+    gap: 20px;
+}
+
+.lang {
+    height: 200px;
+    width: 300px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    padding: 16px;
+    text-align: center;
+    word-wrap: break-word;
+}
+.lang button{
+    background-color: #5cb85c;
+    padding: 8px 16px;
+    font-size: 12px;
+    font-weight: 600;
+    border-radius: 6px;
+    border: none;
+}
+.lang button a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 12px;
+}
+.lang .hash  p:first-child {
+    font-size: 10px;
+}
+.lang .hash p {
+    font-size: 8px;
+}
+.langHeading{
+    font-size: 12px;
+    color: #222;
+    font-weight: 500;
+    height: 10px;
+}
+@media screen and (max-width: 480px) {
+    .mainHeader{
+        flex-direction: column;
+    }
+    .navItems ul{
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 760px) {
+    .downloadLanguagesGrid {
+        justify-content: center;
+      grid-template-columns: 300px 300px;
+      grid-template-rows: (5, 200px);
+    }
+  }
+  @media screen and (max-width: 480px) {
+    .downloadLanguagesGrid {
+        justify-content: center;
+      grid-template-columns: 300px;
+      grid-template-rows: (9, 200px);
+    }
+  }
