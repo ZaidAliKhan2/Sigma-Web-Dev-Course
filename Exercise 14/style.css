@@ -1,0 +1,35 @@
+body{
+    background: url("matrix-code-animation-gif-free-animated-background-716.gif")no-repeat center center fixed;
+    background-size: cover;
+    background-color: green;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+@keyframes dots {
+    0% {
+        content: " ";
+    }
+    33% {
+        content: ".";
+    }
+    66% {
+        content: ". .";
+    }
+    99%{
+        content: ". . .";
+    }
+}
+span{
+    color: white;   
+}
+
+span::after {
+    content: " ";
+    animation: dots 2s ease-in-out infinite;
+}
