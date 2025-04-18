@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background: rgb(4, 83, 155);
+    background: linear-gradient(160deg, rgba(4, 83, 155, 1) 33%, rgba(59, 39, 99, 1) 53%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppins", serif;
+}
+
+.MainContainer{
+    min-height: 350px;
+    width: 100%; 
+    max-width: 500px;
+    border: 2px solid black;
+    border-radius: 10px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 25px;
+    background-color: white;
+}
+.headingContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    flex-wrap: wrap;
+}
+.headingContainer h2{
+    color: #10295F;
+}
+.addTaskContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.addTaskContainer input{
+    width: 100%;
+    max-width: 370px;
+    height: auto;
+    padding: 15px 20px;
+    background-color: #EBEDEE;
+    border: none;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+.addTaskContainer input:focus{
+    border: none;
+    outline: none;
+}
+.addTaskContainer button{
+    height: auto;
+    padding: 15px 20px;
+    border: none;
+    max-width: 100px;
+    width: 100%;
+    background-color: #FD6639;
+    color: white;
+    border-radius: 25px;
+    margin-left: -25px;
+    cursor: pointer;
+}
+.taskContainer{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.checkbox {
+    appearance: none; 
+    width: 20px;
+    height: 20px;
+    border: 2px solid darkgray;
+    border-radius: 50%; 
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    margin-right: 10px;
+}
+.checkbox:checked {
+    background-color: #FD6639; 
+    border: none;
+}   
+.removeBtn{
+    height: 50px;
+    width: 50px;
+    font-size: 20px;
+    color: red;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin-left: auto;
+}
+.removeBtn:hover{
+    transform: scale(1.1);
+}
