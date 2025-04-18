@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Clone</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="/assets/spotify_favicon.png">
+</head>
+
+<body>
+    <header class="mainHeaderContainer">
+        <nav class="navContainer">
+            <div class="navLeft">
+                <div class="Mainhamburger" onclick="toggleMenu()">☰</div>
+                <div class="mobileMenu">
+                    <span id="closeMobileMenu">x</span>
+                    <i class="fa-brands fa-spotify spotifyNavIcon">Shopify</i>
+                    <i class="fa-solid fa-house homeIcon">Home</i>
+                    <i class="fa-solid fa-magnifying-glass">Search</i>
+                    <div class="currentlyPlayingSngContianer">
+                        <h1>Currently Playing</h1>
+                        <div class="currentSongContainer">
+                            <i class="fa-solid fa-play libPlayBtn"></i>
+                            <div class="currentlyPlayingText">
+                                <span class="currentlyPlayingTitle"></span>
+                                <span class="currentlyPlayingAuthor"></span>
+                            </div>
+                            <img src="assets/sound-8563_256.gif" alt="gif" width="20" height="20">
+                        </div>
+                    </div>
+                </div>
+                <div class="iconsContainer">
+                    <i class="fa-brands fa-spotify spotifyNavIcon"></i>
+                    <div class="homeIconCont">
+                        <i class="fa-solid fa-house homeIcon"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="searchBarCont">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" placeholder="What do you want to play?" class="searchBar">
+                <div class="browseIconCont">
+                    <p>|</p>
+                    <img src="/assets/folder-document (1).png" height="20" width="20">
+                </div>
+            </div>
+            <div class="navOptCont">
+                <h3>Premium</h3>
+                <h3>Support</h3>
+                <h3>Download</h3>
+            </div>
+            <p id="line">|</p>
+            <div class="hamburger">☰</div>
+            <div class="navRight">
+                <div class="navloginOptCont">
+                    <i class="fa-solid fa-arrow-down"></i>
+                    <h3>InstallApp</h3>
+                    <h3>Signup</h3>
+                    <button class="lgnBtn">Log in</button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="mainBody">
+        <section class="sideBarSection">
+            <aside class="sideBarContainer">
+                <div class="libraryHeader">
+                    <img src="/assets/library (1).png" width="15" height="15">
+                    <h4>Your Library</h4>
+                    <span>+</span>
+                </div>
+                <div class="scrollbarMainContainer">
+                    <div class="playlistContainer">
+                        <h4>Create your first playlist</h4>
+                        <h5>It's easy, We'll help you</h5>
+                        <button class="createPLaylistBtn">Create playlist</button>
+                    </div>
+                    <div class="podcastContainer">
+                        <h4>Let's find some podcasts to follow</h4>
+                        <h5>We'll keep you updated on new episodes</h5>
+                        <button class="createPLaylistBtn">Browse Podcasts</button>
+                    </div>
+                </div>
+                <footer>
+                    <div class="footerItemsCont">
+                        <p>Legal</p>
+                        <p>Safety & privacy Center</p>
+                        <p>Privacy Policy</p>
+                        <p>Cookies</p>
+                        <p>About Ads</p>
+                        <p>Accessibility</p>
+                    </div>
+                    <h4 id="cookiesTxt">Cookies</h4>
+                    <button class="langBtn"><i class="fa-solid fa-globe"></i> English</button>
+                </footer>
+            </aside>
+        </section>
+        <div class="dragSideBar">
+
+        </div>
+        <main class="mainBodySongsContainer">
+            <section class="popuarArtistCont">
+                <div class="popularArtistHederCont">
+                    <h2>Popular artists playlist</h2>
+                    <h5>Show all</h5>
+                </div>
+                <div class="artistImgContainer">
+                    <div class="artist artistOne" data-artist="Pritam">
+                        <img src="/assets/pritamPic.jpg" width="200" height="200">
+                        <div class="artistText">
+                            <span>Pritam</span>
+                            <span>Artist</span>
+                        </div>
+                    </div>
+                    <div class="artist artisttwo" data-artist="Atif Aslam">
+                        <img src="/assets/atifaslam.jpg" width="200" height="200">
+                        <div class="artistText">
+                            <span>Atif Aslam</span>
+                            <span>Artist</span>
+                        </div>
+                    </div>
+                    <div class="artist artistthree" data-artist="Anuv Jain">
+                        <img src="/assets/anuvjain.jpg" width="200" height="200">
+                        <div class="artistText">
+                            <span>Anuv Jain</span>
+                            <span>Artist</span>
+                        </div>
+                    </div>
+                    <div class="artist artistfour" data-artist="Arijit Singh">
+                        <img src="/assets/arijitsingh.jpg" width="200" height="200">
+                        <div class="artistText">
+                            <span>Arijit Singh</span>
+                            <span>Artist</span>
+                        </div>
+                    </div>
+                    <div class="artist artistfive" data-artist="Shubh">
+                        <img src="/assets/subh.jpg" width="200" height="200">
+                        <div class="artistText">
+                            <span>Shubh</span>
+                            <span>Artist</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="topSongsMainContainer">
+                <div class="topSongsHederCont">
+                    <h2>Top Trending Songs</h2>
+                    <h5>Show all</h5>
+                </div>
+                <div class="topSongsImgContainer">
+                    <div class="topSong song1 artist" data-song-artist = "Bayaan">
+                        <img src="/assets/song1_img.avif" alt="song1 thumbnail" width="300" height="200">
+                        <div class="songText">
+                            <span>Maand</span>
+                            <span>Bayaan</span>
+                        </div>
+                    </div>
+                    <div class="topSong song2 artist" data-song-artist = "Maanu x anural">
+                        <img src="/assets/song2_img.avif" alt="song2 thumbnail" width="300" height="200">
+                        <div class="songText">
+                            <span>Jhol</span>
+                            <span>Maanu x anural</span>
+                        </div>
+                    </div>
+                    <div class="topSong song3 artist" data-song-artist = "Rose x BrunoMars">
+                        <img src="/assets/song3_img.avif" alt="song3 thumbnail" width="300" height="200">
+                        <div class="songText">
+                            <span>APT</span>
+                            <span>Rose x BrunoMars</span>
+                        </div>
+                    </div>
+                    <div class="topSong song4 artist" data-song-artist = "Kaavish x qurutulain">
+                        <img src="/assets/song4_img.avif" alt="song4 thumbnail" width="300" height="200">
+                        <div class="songText">
+                            <span>Faasle</span>
+                            <span>Kaavish x qurutulain</span>
+                        </div>
+                    </div>
+                    <div class="topSong song5 artist" data-song-artist = "Weekend">
+                        <img src="/assets/song5_img.avif" alt="song5 thumbnail" width="300" height="200">
+                        <div class="songText">
+                            <span>Starboy</span>
+                            <span>Weekend</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+          <footer class="mainBodySongFooter">
+            <div class="footerMainContainer">
+                <div class="footer-item One">
+                    <p>Company</p>
+                    <span>About</span>
+                    <span>Jobs</span>
+                    <span>For the Record</span>
+                </div>
+                <div class="footer-item two">
+                    <p>Communities</p>
+                    <span>For Artists</span>
+                    <span>Developers</span>
+                    <span>Advertising</span>
+                    <span>Investors</span>
+                    <span>Vendors</span>
+                </div>
+                <div class="footer-item three">
+                    <p>Useful Links</p>
+                    <span>Support</span>
+                    <span>Free Mobile App</span>
+                </div>
+                <div class="footer-item four">
+                    <p>Spotify Plans</p>
+                    <span>Premium Individual</span>
+                    <span>Premium Duo</span>
+                    <span>Premium Family</span>
+                    <span>Premium Student</span>
+                    <span>Spotify Free</span>
+                </div>
+                <div class="socialIconsContainer">
+                    <a href="https://www.instagram.com/spotify/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://twitter.com/spotify" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="https://www.facebook.com/Spotify" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                </div>
+            </div>
+            <p class="endLine"></p>
+            <span id="copyrightText">© 2025 Spotify AB</span>
+          </footer>
+            
+        </main>
+    </main>
+    <section class="audioSection">
+
+        <div class="audioMainCont">
+            <div class="audioControlsCont">
+                <i class="fa-solid fa-backward backwardBtn"></i>
+                <i class="fa-solid fa-play playBtn"></i>
+                <i class="fa-solid fa-forward forwardBtn"></i>
+                <span id="audioContCloseBtn">X</span>
+            </div>
+            <div class="songTitleContainer">
+                <p id="songTitle"></p>
+                <p id="authorText"></p>
+            </div>
+            <div class="seekBar">
+                <span class="seekBarBall"></span>
+            </div>
+            <div class="volume">
+                <i class="fa-solid fa-volume-high volumeIcon"></i>
+                <div class="volumeBar">
+                    <span class="volumeBarBall"></span>
+                </div>
+            </div>
+        </div>
+            
+    </section>
+    <section class="signupFixedBarCont">
+        <div class="signupFixedBar">
+            <h5>Preview of spotify</h5>
+            <p id="fixedBarTxt">Sign Up to get unlimited songs and podcasts with occasional ads.No credit card needed
+            </p>
+        </div>
+        <button class="fixedBarSignUpBtn">
+            <h3>Sign up free</h3>
+        </button>
+
+    </section>
+    <script src="script.js"></script>
+</body>
+
+</html>

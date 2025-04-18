@@ -1,0 +1,47 @@
+[
+    {
+       "artist" : "Bayaan",
+       "songs" :
+       [
+        {"title":"Maand", "file":"topSongs/JVtKEX90SZ0.mp3"}
+
+       ]
+    },
+
+    {
+        "artist" : "Maanu x anural",
+        "songs" :
+        [
+         {"title":"Jhol", "file":"topSongs/-2RAq5o5pwc.mp3"}
+ 
+        ]
+    },
+
+    {
+        "artist" : "Rose x BrunoMars",
+        "songs" :
+        [
+         {"title":"APT", "file":"topSongs/ekr2nIex040.mp3"}
+ 
+        ]
+    },
+
+    {
+        "artist" : "Kaavish x qurutulain",
+        "songs" :
+        [
+         {"title":"Faasle", "file":"topSongs/9sekgEXGm-E.mp3"}
+ 
+        ]
+    },
+
+    {
+        "artist" : "Weekend",
+        "songs" :
+        [
+         {"title":"StarBoy", "file":"topSongs/34Na4j8AVgA.mp3"}
+ 
+        ]
+    }
+
+]

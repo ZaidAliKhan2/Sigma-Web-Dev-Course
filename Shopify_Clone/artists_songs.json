@@ -1,0 +1,56 @@
+[
+    {
+      "artist": "Pritam",
+      "songs": [
+        { "title": "Balam Pichkari", "file": "Artists_Songs/pritam_Songs/balamPichkaari.mp3" },
+        { "title": "Dooriyaan", "file": "Artists_Songs/pritam_Songs/dooriyaan.mp3" },
+        { "title": "Pee Loon", "file": "Artists_Songs/pritam_Songs/peeLoon.mp3" },
+        { "title": "Teri Jhuki Nazar", "file": "Artists_Songs/pritam_Songs/teriJhukiNazar.mp3" },
+        { "title": "Tujhe Sochta Hun", "file": "Artists_Songs/pritam_Songs/tujheSochtaHun.mp3" }
+      ]
+    }
+,
+    {
+      "artist": "Atif Aslam",
+      "songs": [
+        { "title": "Dill Diyyan Gallan", "file": "Artists_Songs/Atif_Songs/dillDiyaanGallan.mp3" },
+        { "title": "Hona THa Pyaar", "file": "Artists_Songs/Atif_Songs/honaThaPyaar.mp3" },
+        { "title": "Rafta Rafta", "file": "Artists_Songs/Atif_Songs/raftaRafta.mp3" },
+        { "title": "Tere Bin", "file": "Artists_Songs/Atif_Songs/tereBin.mp3" },
+        { "title": "Woh Lamhe Woh Baate", "file": "Artists_Songs/Atif_Songs/wohLamhe.mp3" }
+      ]
+    }
+,
+    {
+      "artist": "Anuv Jain",
+      "songs": [
+        { "title": "AFSOOS", "file": "Artists_Songs/Anuv_Songs/afsoos.mp3" },
+        { "title": "BAARISHEIN", "file": "Artists_Songs/Anuv_Songs/baarishein.mp3" },
+        { "title": "GULL", "file": "Artists_Songs/Anuv_Songs/gull.mp3" },
+        { "title": "HUSN", "file": "Artists_Songs/Anuv_Songs/husn.mp3" },
+        { "title": "Jo Tum Mere Ho", "file": "Artists_Songs/Anuv_Songs/joTumMereHo.mp3" }
+      ]
+    }
+,
+    {
+      "artist": "Arijit Singh",
+      "songs": [
+        { "title": "Hamari Adhuri Kahani", "file": "Artists_Songs/Arijit_Songs/hamariAdhuriKahani copy.mp3" },
+        { "title": "Khaamoshiyaan", "file": "Artists_Songs/Arijit_Songs/khaamoshiyaan.mp3" },
+        { "title": "Mai Phir Bhi Tumko Chahunga", "file": "Artists_Songs/Arijit_Songs/maiPhirBhiTumkoChahunga.mp3" },
+        { "title": "Muskuraane ki wajah", "file": "Artists_Songs/Arijit_Songs/muskuraane.mp3" },
+        { "title": "Pee Loon", "file": "Artists_Songs/Arijit_Songs/peeLoon.mp3" }
+      ]
+    }
+,
+    {
+      "artist": "Shubh",
+      "songs": [
+        { "title": "Aura", "file": "Artists_Songs/Shubh_Songs/aura.mp3" },
+        { "title": "Cheques", "file": "Artists_Songs/Shubh_Songs/cheques.mp3" },
+        { "title": "MVP", "file": "Artists_Songs/Shubh_Songs/mvp.mp3" },
+        { "title": "One Love", "file": "Artists_Songs/Shubh_Songs/oneLove.mp3" },
+        { "title": "We Rollin", "file": "Artists_Songs/Shubh_Songs/weRollin.mp3" }
+      ]
+    }
+]
