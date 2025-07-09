@@ -1,0 +1,43 @@
+[
+  {
+    "id": 1,
+    "date": "13/01",
+    "image": "../images/blogPageImages/b1(1).jpg",
+    "heading": "The Cotton-Jersey Zip-Up Hoodie",
+    "description": "This cozy yet stylish hoodie is your perfect go-to for layering — blending comfort with modern streetwear appeal...",
+    "link": "https://coreconference.lt/en/2017/01/14/hello-world-2/"
+  },
+  {
+    "id": 2,
+    "date": "13/04",
+    "image": "../images/blogPageImages/b2(1).jpg",
+    "heading": "How to Style a Quiff",
+    "description": "Learn how to master the iconic quiff hairstyle — a timeless look that adds volume, attitude, and flair to any outfit...",
+    "link": "https://coreconference.lt/en/2016/03/09/interview-the-spotlight-barbers/"
+  },
+  {
+    "id": 3,
+    "date": "12/01",
+    "image": "../images/blogPageImages/b3(1).jpg",
+    "heading": "Must-Have Skater Girl Items",
+    "description": "From oversized tees to chunky sneakers, explore the essential items that define the skater girl aesthetic with an edgy twist...",
+    "link": "https://coreconference.lt/en/2017/01/13/must-have-skater-girl-items/"
+  },
+  {
+    "id": 4,
+    "date": "16/01",
+    "image": "../images/blogPageImages/b4(1).jpg",
+    "heading": "Runway-Inspired Trends",
+    "description": "Discover how to bring high-fashion runway styles into your everyday wardrobe with effortless pieces and bold combinations....",
+    "link": "https://coreconference.lt/en/2017/01/12/runway-inspired-trends/"
+  },
+    {
+    "id": 5,
+    "date": "10/03",
+    "image": "../images/blogPageImages/b6(1).jpg",
+    "heading": "AW20 Menswear",
+    "description": "Explore the Autumn/Winter 2020 menswear collection, where timeless tailoring meets modern silhouettes — featuring rich textures, layered styling, and earthy tones perfect for the colder season.....",
+    "link": "https://coreconference.lt/en/2016/03/09/aw14-menswear-trends/"
+  }
+
+]

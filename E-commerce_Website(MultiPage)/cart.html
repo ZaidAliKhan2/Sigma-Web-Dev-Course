@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart Page</title>
+    <link rel="stylesheet" href="css/mainStyle.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Font Awesome 6 (Free version) -->
+    <link rel="icon" href="/images/favicon.ico" type="image/x-icon">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    
+      
+</head>
+
+<body id="cartPage">
+
+    <section id="cart" class="section">
+        <header id="navbar"></header>
+
+        <div class="aboutHeroCont catHeroCont">
+            <div class="aboutHeroTxtCont cartHeroTxtCont">
+                <div class="aboutHeroTxt cartHeroTxt">
+                    <h1>#Cart</h1>
+                    <p>Add your coupon code and save up to 70%!!!</p>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="cartDetailsCont">
+            <div class="cartDetailsHeading">
+                <h3>REMOVE</h3>
+                <h3>IMAGE</h3>
+                <h3>PRODUCT</h3>
+                <h3>PRICE</h3>
+                <h3>QUANTITY</h3>
+                <h3>SUBTOTAL</h3>
+            </div>
+        </div>
+
+        <div class="discountAndTotalCont">
+            <div class="coupounCont">
+                <h1>Apply Coupoun</h1>
+                <form>
+                <input type="text" name="coupoun" placeholder="Enter Your Coupoun" id="coupounInput">
+                <input type="button" value="Apply" id="coupounApplyBtn">
+                </form>
+            </div>
+            <div class="subTotalMainCont">
+                <h1>Cart Totals</h1>
+                <div class="subTotalCont">
+                    <p>Cart Subtotal</p>
+                    <p class="allItemsTotal">$0</p>
+                    <p>Shipping</p>
+                    <p>Free</p>
+                    <p>Total</p>
+                    <p class="allItemsTotal">$0</p>
+                </div>
+                <a href="https://buy.stripe.com/test_14A00l3OH9iq39z1K1fUQ00" target="_blank"><button class="checkoutBtn">Proced To Checkout</button></a>
+            </div>
+        </div>
+
+         <div id="newsLetter"></div>
+
+        <div id="footer"></div>
+    </section>
+    <script src="js/navbarFooterManager.js"></script>
+    <script src="js/mainScript.js"></script>
+
+</body>
+
+</html>

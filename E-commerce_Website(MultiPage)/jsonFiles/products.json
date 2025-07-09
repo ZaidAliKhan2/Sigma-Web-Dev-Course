@@ -1,0 +1,130 @@
+[
+  {
+    "id": 1,
+    "title": "Cartoon Astronaut Shirt",
+    "price": "$100",
+    "image": "images/featuredProducts/f1.jpg",
+    "category": "Shirts",
+    "description": "This stylish cartoon astronaut shirt is designed for space lovers and dreamers. Featuring a unique, playful astronaut illustration, it's perfect for casual outings, school, or hanging out with friends. The breathable cotton fabric ensures all-day comfort."
+  },
+  {
+    "id": 2,
+    "title": "Green Leaves Printed Shirt",
+    "price": "$100",
+    "image": "images/featuredProducts/f2.jpg",
+    "category": "Shirts",
+    "description": "Bring the freshness of nature into your wardrobe with this green leafy print shirt. Made with lightweight material and detailed botanical designs, it’s an ideal choice for spring and summer events or everyday relaxation."
+  },
+  {
+    "id": 3,
+    "title": "Texture Shirt",
+    "price": "$100",
+    "image": "images/featuredProducts/f3.jpg",
+    "category": "Shirts",
+    "description": "This textured shirt adds sophistication to your outfit with its subtle pattern and rich finish. It's versatile enough for both office meetings and evening dinners, offering comfort and style in one smart package."
+  },
+  {
+    "id": 4,
+    "title": "White Flower Shirt",
+    "price": "$100",
+    "image": "images/featuredProducts/f4.jpg",
+    "category": "Shirts",
+    "description": "An elegant white shirt adorned with fine floral patterns, giving it a delicate and refined look. Perfect for summer brunches, vacations, or weekend gatherings. The soft fabric feels gentle on the skin, making it a comfortable fashion choice."
+  },
+  {
+    "id": 5,
+    "title": "Purple Printed Shirt",
+    "price": "$120",
+    "image": "images/featuredProducts/f5.jpg",
+    "category": "Shirts",
+    "description": "Make a bold statement with this vibrant purple printed shirt. With a mix of abstract and geometric prints, it's perfect for parties, festivals, or simply expressing your bold and artistic personality."
+  },
+  {
+    "id": 6,
+    "title": "Orange Shirt",
+    "price": "$120",
+    "image": "images/featuredProducts/f6.jpg",
+    "category": "Shirts",
+    "description": "Brighten up your day with this energetic orange shirt. Whether you're going to a casual hangout or a summer beach party, this shirt adds a spark of confidence and color to your wardrobe."
+  },
+  {
+    "id": 7,
+    "title": "Baggy Pants",
+    "price": "$80",
+    "image": "images/featuredProducts/f7.jpg",
+    "category": "Pants",
+    "description": "These baggy pants combine urban style with unbeatable comfort. Made for movement and breathability, they are a great choice for lounging, travel, or creating an effortlessly cool streetwear look."
+  },
+  {
+    "id": 8,
+    "title": "Floral Design Shirt",
+    "price": "$75",
+    "image": "images/featuredProducts/f8.jpg",
+    "category": "Shirts",
+    "description": "This floral design shirt merges vintage charm with modern elegance. Its lightweight fabric and subtle pattern make it ideal for garden parties, dates, or any stylish day out."
+  },
+  {
+    "id": 9,
+    "title": "Light Blue Shirt",
+    "price": "$70",
+    "image": "images/featuredProducts/n1.jpg",
+    "category": "Shirts",
+    "description": "A classic light blue shirt that radiates calm and class. Whether you're heading to the office or a casual event, this shirt keeps you looking sharp and feeling at ease all day long."
+  },
+  {
+    "id": 10,
+    "title": "Gray Shirt",
+    "price": "$70",
+    "image": "images/featuredProducts/n2.jpg",
+    "category": "Shirts",
+    "description": "Simplicity meets style in this neutral gray shirt. Its timeless color makes it easy to pair with jeans or formal trousers, making it a staple piece for any wardrobe."
+  },
+  {
+    "id": 11,
+    "title": "Off white Shirt",
+    "price": "$80",
+    "image": "images/featuredProducts/n3.jpg",
+    "category": "Shirts",
+    "description": "Minimalistic and elegant, this off-white shirt delivers clean lines and soft tones for a sophisticated, modern look. Perfect for both formal and smart-casual settings."
+  },
+  {
+    "id": 12,
+    "title": "Printed Shirt",
+    "price": "$100",
+    "image": "images/featuredProducts/n4.jpg",
+    "category": "Shirts",
+    "description": "This printed shirt is a fun and versatile piece that adds personality to your outfit. With playful patterns and comfortable fabric, it's perfect for weekend adventures or casual Fridays."
+  },
+  {
+    "id": 13,
+    "title": "Dark Blue Shirt",
+    "price": "$70",
+    "image": "images/featuredProducts/n5.jpg",
+    "category": "Shirts",
+    "description": "This dark blue shirt offers a sleek and polished vibe suitable for formal evenings or professional settings. It pairs well with black or gray pants for a classy, confident appearance."
+  },
+  {
+    "id": 14,
+    "title": "Shorts",
+    "price": "$120",
+    "image": "images/featuredProducts/n6.jpg",
+    "category": "Shorts",
+    "description": "Comfort meets functionality in these relaxed-fit shorts. Designed with breathable material and a flexible waistband, they’re your go-to for warm-weather activities or laid-back days."
+  },
+  {
+    "id": 15,
+    "title": "Forest Shirt",
+    "price": "$80",
+    "image": "images/featuredProducts/n7.jpg",
+    "category": "Shirts",
+    "description": "This forest green shirt captures the essence of nature with earthy tones and a relaxed fit. Ideal for outdoor lovers and eco-conscious fashionistas looking to stand out naturally."
+  },
+  {
+    "id": 16,
+    "title": "Black Shirts",
+    "price": "$80",
+    "image": "images/featuredProducts/n8.jpg",
+    "category": "Shirts",
+    "description": "This black shirt is a wardrobe essential. Its sleek look works for formal dinners, night-outs, or even layered streetwear. A must-have for anyone who loves bold and versatile fashion."
+  }
+]

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shop Page</title>
+  <link rel="stylesheet" href="css/mainStyle.css">
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <!-- Font Awesome 6 (Free version) -->
+   
+
+</head>
+
+<body id="shopPage">
+  <section id="shop" class="section">
+    <header id="navbar"></header>
+
+    <section class="shopMainBody">
+
+      <div class="shopHeroCont">
+        <div class="shopHeroTxtCont">
+          <div class="shopHeroTxt">
+            <h1>#stayhome</h1>
+            <p>Save more with coupons & up to 70% off!</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="featuredProductsMain">
+        <div class="featuredProductsMainCont shopPagefeaturedProductsMainCont">
+        </div>
+      </div>
+
+      <div class="nextButtonContainer">
+        <a><button>1</button></a>
+        <a><button>2</button></a>
+        <a><button>→</button></a>
+      </div>
+
+    </section>
+
+    <section class="productsDetailSection hidden">
+
+      <a href="#" id="backArrow">←</a>
+      <div id="productDetailsMainCont">
+
+        <div class="productImgContainer">
+          <img src="" alt="" id="productImage" width="350" height="400">
+        </div>
+
+        <div class="productDetailsCont" id="productDetailsCont">
+          <h4 id="productCategory"></h4>
+          <h1 id="productName"></h1>
+          <h1 id="productPrice"></h1>
+
+          <div class="productSizeCont">
+            <select name="Cloth Size" id="sizeSelectCont">
+              <option value="XXL" selected>XXL</option>
+              <option value="XL">XL</option>
+              <option value="Large">Large</option>
+              <option value="Medium">Medium</option>
+              <option value="Small">Small</option>
+            </select>
+          </div>
+
+          <div class="quantityBtnCont">
+            <input type="number" id="productQuantity" name="quantity" min="1" max="10" value="1">
+            <button id="addToCartBtn">Add To Cart</button>
+          </div>
+
+          <h3>Product Details</h3>
+          <p id="productDescription" style="color: gray;"></p>
+
+        </div>
+
+      </div>
+      <div class="featuredProductsMain">
+        <div class="featuredProductsTxtCont">
+          <h1>Featured Products</h1>
+          <p>Summer Collection New Modern Design</p>
+        </div>
+        <div class="featuredProductsDetailPageCont">
+
+        </div>
+      </div>
+
+    </section>
+
+     <div id="newsLetter"></div>
+
+
+    <div id="footer"></div>
+  </section>
+  <script src="js/navbarFooterManager.js"></script>
+  <script src="js/mainScript.js" defer></script>
+</body>
+
+</html>

@@ -1,0 +1,8 @@
+[
+    {"id": 1, "image": "images/features/f1.png", "title": "Free Shipping", "color" : "pink"},
+    {"id": 2, "image": "images/features/f2.png", "title": "Online Order", "color" : "lightgreen"},
+    {"id": 3, "image": "images/features/f3.png", "title": "Save Money", "color" : "lightblue"},
+    {"id": 4, "image": "images/features/f4.png", "title": "Promotions", "color" : "#D8BFD8"},
+    {"id": 5, "image": "images/features/f5.png", "title": "Happy Sell", "color" : "lightpink"},
+    {"id": 6, "image": "images/features/f6.png", "title": "24/7 Support", "color" : "lightyellow"}
+]
