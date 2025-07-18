@@ -1,0 +1,14 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+#dataGeneratorBtn{
+    border: none;
+    background-color: aqua;
+    color: red;
+    font-size: 20px;
+    padding: 15px;
+    border-radius: 5px;
+}
