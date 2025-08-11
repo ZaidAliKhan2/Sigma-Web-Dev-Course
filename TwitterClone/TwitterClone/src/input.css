@@ -1,0 +1,37 @@
+@import "tailwindcss";
+
+@layer components {
+  .nav-text {
+    @apply text-white text-xl;
+  }
+  .hover:hover {
+    @apply bg-[#000d33] rounded-2xl cursor-pointer;
+  }
+  .interactionsHover {
+    @apply text-gray-400;
+  }
+  .interactionsHover:hover {
+    @apply text-blue-400 cursor-pointer;
+  }
+  .bg-custom-gradient {
+    background: linear-gradient(to bottom, #193447, #0f1f29, #050b10);
+  }
+  .drop-shadow-white-glow {
+    filter: drop-shadow(0 0 6px rgba(255, 255, 255, 0.7));
+  }
+  .glow-blue {
+    box-shadow: 0 0 8px 3px rgba(59, 130, 246, 0.3),
+      /* blue-400 */ 0 0 20px 6px rgba(59, 130, 246, 0.4);
+  }
+}
+
+@layer utilities {
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .no-scrollbar {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+}

@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Elon Musk",
+    "username": "@ElonMusk123",
+    "usernameShort": "@ElonMusk...",
+    "imgSrc": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Elon_Musk_Royal_Society_crop.jpg/960px-Elon_Musk_Royal_Society_crop.jpg"
+  },
+  {
+    "name": "Donald Trump",
+    "username": "@PresidentTrump",
+    "usernameShort": "@PresidentTr..",
+    "imgSrc": "https://bidenwhitehouse.archives.gov/wp-content/uploads/2021/01/45_donald_trump.jpg"
+  },
+  {
+    "name": "Imran Khan",
+    "username": "@ImranKhan804",
+    "usernameShort": "@ImranKhan..",
+    "imgSrc": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1BzP5mcdH-8NSlLVkPBbRVEel65_JU2PJxQ&s"
+  },
+  {
+    "name": "Tim Cook",
+    "username": "tim_cook",
+    "usernameShort": "@tim_cook..",
+    "imgSrc": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQI27BvvPQ8pM_nVdr44Puna0Tn8DgYbRWx9w&s"
+  },
+  {
+    "name": "Satya Nadella",
+    "username": "satya_nadella",
+    "usernameShort": "@satya_..",
+    "imgSrc": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSktSk7JLkPUBwI4Kvyi-Fp4l-JjK5CQ93GEA&s"
+  },
+  {
+    "name": "Sheryl Sandberg",
+    "username": "sheryl_sandberg",
+    "usernameShort": "@sheryl_..",
+    "imgSrc": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRejmMjtwmmm82kq3r-_sNAaeromIidkD6b5g&s"
+  }
+]

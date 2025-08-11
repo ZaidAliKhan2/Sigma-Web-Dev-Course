@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Babar Azam",
+    "username": "@babarazam_56",
+    "postContent": "Another century for Pakistan 🏏💚 Always proud to wear the green!",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfdNS9QXSAV_bZhisv1bBTgmWdch-SSEok7p7EwfANjq-vx-iI943-7gCtt9EC52bZreA&usqp=CAU",
+    "date": "August 10",
+    "profilePic": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS34qgT1gOgEIW_QrK-EoGbNDzx92PRgCkmNA&s"
+  },
+  {
+    "name": "Ayesha Code",
+    "username": "@ayeshacodes",
+    "postContent": "Finally built my first MERN stack app 🚀 #WomenInTech #Pakistan",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPkl67hFbiaSx_-sSVnHN5K4AA5MzQNc0ztw&s",
+    "date": "July 28",
+    "profilePic": "https://randomuser.me/api/portraits/women/32.jpg"
+  },
+  {
+    "name": "Imran Khan",
+    "username": "@imrankhan.pti",
+    "postContent": "Pakistan's youth is the future — invest in them, and the nation will rise. 🇵🇰",
+    "image": "https://images.unsplash.com/photo-1555848962-6e79363ec58f?auto=format&fit=crop&w=600&q=80",
+    "date": "July 22",
+    "profilePic": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1BzP5mcdH-8NSlLVkPBbRVEel65_JU2PJxQ&s"
+  },
+  {
+    "name": "Fatima Dev",
+    "username": "@fatimadev",
+    "postContent": "Dark mode is mandatory for late-night coding sessions ☕ #CodeLife",
+    "image": "https://nighteye.app/wp-content/uploads/2020/04/why-programmers-work-with-dark-mode-700x480.png",
+    "date": "August 1",
+    "profilePic": "https://randomuser.me/api/portraits/women/28.jpg"
+  },
+  {
+    "name": "Shaheen Afridi",
+    "username": "@shaheenafridi10",
+    "postContent": "What a spell today! 💥🔥 Pakistan Zindabad!",
+    "image": "https://i.pinimg.com/736x/e5/7a/cd/e57acdee5c3f7e970cb580bde4ce621f.jpg",
+    "date": "August 5",
+    "profilePic": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqlkf-kH-ZkYJStgnPYLMg6Gh65lSyPfkv3A&s"
+  },
+  {
+    "name": "Zain Fullstack",
+    "username": "@zainbuilds",
+    "postContent": "Deployed my first app on Vercel today 🙌 Feels great!",
+    "image": "https://assets.vercel.com/image/upload/v1689795055/docs-assets/static/docs/concepts/deployments/deployment-resources-page-dark.png",
+    "date": "July 30",
+    "profilePic": "https://imageio.forbes.com/specials-images/imageserve/6283c1e1e5d748b28781050c/0x0.jpg?format=jpg&crop=1053,1054,x0,y452,safe&height=416&width=416&fit=bounds"
+  },
+  {
+    "name": "Haris Rauf",
+    "username": "@harisrauf97",
+    "postContent": "Fast bowling is an art and a passion 🎯 #Cricket",
+    "image": "https://images.unsplash.com/photo-1540747913346-19e32dc3e97e?auto=format&fit=crop&w=600&q=80",
+    "date": "August 8",
+    "profilePic": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2WjgRqM93RFFisAQg8W8WUOoAxttLmYv_zw&s"
+  },
+  {
+    "name": "Sana Khan",
+    "username": "@sanakhan_uiux",
+    "postContent": "Redesigned a Pakistani e-commerce website — boosting conversion by 20%! 🛍️",
+    "image": "https://images.unsplash.com/photo-1504805572947-34fad45aed93?auto=format&fit=crop&w=600&q=80",
+    "date": "July 19",
+    "profilePic": "https://randomuser.me/api/portraits/women/40.jpg"
+  },
+  {
+    "name": "Fawad DevOps",
+    "username": "@fawadops",
+    "postContent": "Docker + Kubernetes on a Sunday. DevOps never sleeps. 🐳☸️",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAnKrQEdjbKmd3666XIcqP0ysOt_Ievg9xWg&s",
+    "date": "August 3",
+    "profilePic": "https://randomuser.me/api/portraits/men/36.jpg"
+  },
+  {
+    "name": "Bismah Maroof",
+    "username": "@bismahmaroof",
+    "postContent": "Honored to represent Pakistan in women's cricket. 💚🏏",
+    "image": "https://i.tribune.com.pk/media/images/39154_3640657_updates1726681343-0/39154_3640657_updates1726681343-0.jpg",
+    "date": "July 25",
+    "profilePic": "https://randomuser.me/api/portraits/women/50.jpg"
+  }
+]
