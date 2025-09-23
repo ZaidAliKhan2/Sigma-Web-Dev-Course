@@ -1,0 +1,18 @@
+.cardContainer {
+  border: 1px solid black;
+  max-width: 200px;
+  max-height: 200px;
+  padding: 6px 12px;
+  text-align: left;
+  white-space: wrap;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+.cardContainer h1 {
+  font-size: small;
+}
+body {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
